@@ -1,5 +1,9 @@
 ### Assignment: Caching the Inverse of a Matrix
-## Create cache matrix
+## 4/23/2014 version 2 -  M. Lucens
+
+## Create cache matrix with functions to get, set, getinv, and setinv
+## get gets the matrix, set sets the matrix, setinv stores the inverse into cache
+## getinv retrieves the inverse of the matrix from cache
 
 makeCacheMatrix <- function(x = matrix()) {
             m <- NULL
